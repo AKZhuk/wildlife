@@ -19,10 +19,154 @@
 }
 
 html {
+  max-width: 1440px;
   box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 20px;
+  width: 1440px;
+}
+body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #f7f7f7;
+}
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header_logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_item {
+  margin-right: 61px;
+}
+.header_item:last-child {
+  margin-right: 0px;
+}
+.header_logo-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-decoration: none;
+  /* identical to box height, or 187% */
+
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.header_link {
+  font-size: 23px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #f7f7f7;
+}
+.header_link-btn {
+  width: 120px;
+  height: 50px;
+  left: 1200px;
+  top: 24px;
+
+  border: 2px solid #cd6326;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 23px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+
+  /* font-light */
+
+  color: #f7f7f7;
+}
+
+/*Header styles end*/
+
+/*Survival styles start*/
+.survival {
+  height: 780px;
+  background: url(../img/survival-bg.jpg);
+  background-size: cover;
+  padding-top: 200px;
+}
+.survival-title {
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #cd6326;
+  margin-bottom: 51px;
+}
+
+.survival-subtitle {
+  font-size: 18px;
+  line-height: 27px;
+  max-width: 274px;
+  margin-bottom: 49px;
+}
+
+.donate-submit {
+  width: 160px;
+  height: 60px;
+  left: 120px;
+  top: 479px;
+  background: #cd6326;
+  border-radius: 5px;
+
+  font-size: 23px;
+  line-height: 27px;
+
+  text-align: center;
+  font-family: Roboto;
+  color: #f7f7f7;
+  border-style: none;
+}
+
+/*Survival styles end*/
+
+/*Latest arcitcle styles start*/
+.latest-article {
+  height: 1368px;
+  background: #cccccc;
+  border-radius: 0px;
+}
+h2 {
+  left: 558px;
+  top: 120px;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+}
+/*Latest arcitcle styles end*/
+
+/*Footer styles start*/
+footer {
+  height: 360px;
+  background: url(../img/footer-bg.jpg);
+}
+
+/*Footer styles end*/
